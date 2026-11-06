@@ -1,0 +1,29 @@
+{
+  "name": "cholascript-ai",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "ingest:charts": "node --env-file-if-exists=.env.local scripts/ingest-reference-charts.mjs",
+    "create:file-search-store": "node --env-file-if-exists=.env.local scripts/create-gemini-file-search-store.mjs",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@google/genai": "^2.3.0",
+    "@supabase/supabase-js": "^2.58.0",
+    "next": "^16.4.3",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "sharp": "^0.35.5",
+    "zod": "^4.1.11"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "typescript": "^5.9.3",
+    "vitest": "^5.0.5"
+  }
+}

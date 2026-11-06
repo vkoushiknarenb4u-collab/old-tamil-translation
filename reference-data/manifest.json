@@ -1,0 +1,30 @@
+{
+  "dataset_status": "demonstration_sources_unverified",
+  "note": "User-supplied historical script charts are preserved as visual reference material only. No character mapping or inscription reading has been asserted or verified.",
+  "assets": [
+    {
+      "file": "history-of-tamil-script.jfif",
+      "source_title": "User-supplied chart: History of Tamil Script",
+      "source_url": null,
+      "asset_type": "chart",
+      "period_label": null,
+      "is_verified": false
+    },
+    {
+      "file": "tamil-script-evolution.jfif",
+      "source_title": "User-supplied chart: Tamil script character evolution",
+      "source_url": null,
+      "asset_type": "chart",
+      "period_label": null,
+      "is_verified": false
+    },
+    {
+      "file": "tamil-script-reference.jpg",
+      "source_title": "User-supplied chart: Tamil script letter-form comparison",
+      "source_url": null,
+      "asset_type": "chart",
+      "period_label": null,
+      "is_verified": false
+    }
+  ]
+}
